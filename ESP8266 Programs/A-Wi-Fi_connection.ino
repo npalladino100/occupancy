@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(115200);         // Start the Serial communication to send messages to the computer
   delay(10);
   Serial.println('\n');
-  
+  //test 1
   WiFi.begin(ssid, password);             // Connect to the network
   Serial.print("Connecting to ");
   Serial.print(ssid); Serial.println(" ...");
